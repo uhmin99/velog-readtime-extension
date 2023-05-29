@@ -1,0 +1,30 @@
+{
+  "manifest_version": 3,
+  "name": "Velog Reading time",
+  "version": "1.0",
+  "description": "Show reading time for Velog",
+  "icons": {
+    "16": "images/main-icon.png",
+    "32": "images/main-icon.png",
+    "48": "images/main-icon.png",
+    "128": "images/main-icon.png"
+  },
+  "action": {
+    "default_icon": {            
+        "16": "images/main-icon.png",
+        "32": "images/main-icon.png",
+        "48": "images/main-icon.png",
+        "128": "images/main-icon.png"
+    },
+    "default_title": "Action Title",
+    "default_popup": "popup/popup.html"
+  },
+  "content_scripts": [
+    {
+      "js": ["scripts/content.js"],
+      "matches": [
+        "https://velog.io/*"
+      ]
+    }
+  ]
+}

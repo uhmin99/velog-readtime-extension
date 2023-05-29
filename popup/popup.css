@@ -1,0 +1,17 @@
+body {
+    width: 200px;
+    height: 150px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    padding: 10px;
+    background-color: bisque;
+}
+title-text {
+    width: 100%;
+    height: 80px;
+    resize: none;
+    margin-bottom: 10px;
+}
+
+content-text {
+    width: 100%;
+}
