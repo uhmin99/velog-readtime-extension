@@ -1,5 +1,7 @@
 # Velog Read Time Chrome Extension
 
+https://chrome.google.com/webstore/detail/velog-reading-time/feachohochbhkehfgcjpgpljdkcpddhi
+
 ## Description
 The Velog Read Time Chrome Extension is a tool that provides users with an estimated reading time for articles on the blog site named "Velog." This extension calculates the time it would take to read an article based on its word count and displays the result to users.
 
